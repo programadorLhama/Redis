@@ -1,6 +1,6 @@
 from datetime import datetime
-from models.connection.redis_connection import RedisConnectionHandle
-from models.redis_repository import RedisRepository
+from models.redis.connection.redis_connection import RedisConnectionHandle
+from models.redis.redis_repository import RedisRepository
 from configs.start_form import start_form
 
 ######################################################
